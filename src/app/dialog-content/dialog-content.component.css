@@ -1,0 +1,153 @@
+
+.float-end {
+    position: relative;
+    margin-top: -7.2rem;
+    left: -2.1rem;
+    border-radius: 50%;
+    float: right !important;
+    height: 100px;
+    width: 90px;
+    background-color: #ffffff;
+}
+
+
+.offcanvas-header .navbar-brand img  {
+  width: 7.5rem;
+  margin-left: 0rem;
+  height: 5.5rem;
+}
+
+.offcanvas-header {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.btn-close {
+    font-size: 1.3rem;
+    background-color: #f8f2f6;
+    opacity: 1;
+    margin-top: -5rem;
+    margin-right: 0.2rem;
+    color: #e5dddd;
+    box-shadow: 0 0 0.5rem #932067;
+}
+
+ .ng-fa-icon {
+  font-size: 1.3vw;
+  color: #69003f;
+  margin-right: 2vw;
+  padding: 1vw;
+  border-radius: 50%;
+  font-weight: 500;
+  border: lightgrey;
+  margin-top: 0.8vw;
+  background: #fffafa;
+  }
+  
+   .ng-fa-icon:hover {
+    color: white;
+    background-color: #932067;
+    transition: 0.3s;
+    border: 2px solid #ffffff;
+  }
+  
+   .upper-hr {
+    border-top: 1.9px solid #860153f1;
+    opacity: 1.6;
+    width: 83%;
+    margin-left: 2.2vw;
+    border-width: 0.1vw;
+  }
+
+  dl, ol, ul {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+  
+ .lower-hr {
+    width: 53%;
+    margin-left: 5.5rem;
+    opacity: 0.5;
+  }
+  
+  
+   h6 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  li .pt-5 {
+    padding-top: 2.5rem;
+  }
+
+  .offcanvas-body p {
+    flex-grow: 1;
+    padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+    overflow-y: auto;
+    text-align: justify;
+    position: absolute;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: -3rem;
+    margin-bottom: -11rem;
+    line-height: 1.5rem;
+}
+
+
+
+img, svg  {
+  height: 2.3em;
+    font-size: 2.5rem;
+    width: 8.3rem;
+    margin-left: 1.4rem;
+    vertical-align: middle;
+}
+
+
+
+@media (min-width: 576px) {
+    .col-sm-3 {
+      flex: 0 0 auto;
+      width: 42%;
+      height: 7.1rem;
+    }
+  }
+
+  .text-center {
+    margin-top: 9rem;
+    text-align: center !important;
+}
+
+.address {
+  margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.address p{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #69003f;
+}
+
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+  transform: none;
+  overflow-y: scroll;
+}
+
+body.blur .main-content {
+  filter: blur(5px);
+  transition: filter 0.3s ease-in-out;
+}
+
+.offcanvas-backdrop {
+  /* display: none !important; */
+}
+
+.offcanvas .overly .show-overly{
+  visibility: visible;
+  opacity: 0.9;
+}

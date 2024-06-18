@@ -1,0 +1,375 @@
+/* .data{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+
+.slider{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slide-track{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
+}
+.slide-track:hover{
+    animation-play-state: paused;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+.slide{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+img {
+    width: 100%;
+    transition: transform 1s;
+}
+
+img:hover{
+    transform: translateZ(20px);
+} */
+
+
+.services {
+    padding-bottom: 20px;
+  }
+  
+  .services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #fff;
+  }
+  
+  .services .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 17px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+  }
+  
+  .services .icon i {
+    font-size: 36px;
+    line-height: 1;
+  }
+  
+  .services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .title a {
+    color: #111;
+    text-decoration: none;
+  }
+  
+  .services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  
+  .services .icon-box-pink .icon {
+    background: #fceef3;
+  }
+  
+  .services .icon-box-pink .icon .ng-fa-icon {
+    color: #ff689b;
+    font-size: 2rem;
+  }
+  
+  .services .icon-box-pink:hover {
+    border-color: #ff689b;
+  }
+  
+  .services .icon-box-cyan .icon {
+    background: #e6fdfc;
+  }
+  
+  .services .icon-box-cyan .icon .ng-fa-icon {
+    color: #3fcdc7;
+    font-size: 2rem;
+  }
+  
+  .services .icon-box-cyan:hover {
+    border-color: #3fcdc7;
+  }
+  
+  .services .icon-box-green .icon {
+    background: #eafde7;
+  }
+  
+  .services .icon-box-green .icon .ng-fa-icon {
+    color: #41cf2e;
+    font-size: 2rem;
+  }
+  
+  .services .icon-box-green:hover {
+    border-color: #41cf2e;
+  }
+  
+  .services .icon-box-blue .icon {
+    background: #e1eeff;
+  }
+  
+  .services .icon-box-blue .icon .ng-fa-icon {
+    color: #2282ff;
+    font-size: 2rem;
+  }
+  
+  .services .icon-box-blue:hover {
+    border-color: #2282ff;
+  }
+
+  a {
+    margin-top: 1.2rem;
+  }
+  
+  [data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+    margin-top: 1rem;
+}
+  
+@media only screen and (min-width:568px) and (max-width:992px) {
+
+  .services[_ngcontent-ng-c4222064957] .icon[_ngcontent-ng-c4222064957] {
+    margin: 0 auto 35px auto;
+    padding-top: 22px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.services .icon-box-pink .icon {
+  background: #fceef3;
+}
+
+.services .icon-box-pink .icon .ng-fa-icon {
+  color: #ff689b;
+  font-size: 2.9rem;
+}
+
+.services .icon-box-pink:hover {
+  border-color: #ff689b;
+}
+
+
+.services .icon-box-cyan .icon {
+  background: #e6fdfc;
+}
+
+.services .icon-box-cyan .icon .ng-fa-icon {
+  color: #3fcdc7;
+  font-size: 2.9rem;
+}
+
+.services .icon-box-cyan:hover {
+  border-color: #3fcdc7;
+}
+
+.services .icon-box-green .icon {
+  background: #eafde7;
+}
+
+.services .icon-box-green .icon .ng-fa-icon {
+  color: #41cf2e;
+  font-size: 2.9rem;
+}
+
+.services .icon-box-green:hover {
+  border-color: #41cf2e;
+}
+
+.services .icon-box-blue .icon {
+  background: #e1eeff;
+}
+
+.services .icon-box-blue .icon .ng-fa-icon {
+  color: #2282ff;
+  font-size: 2.9rem;
+}
+
+.services .icon-box-blue:hover {
+  border-color: #2282ff;
+}
+
+
+.services[_ngcontent-ng-c4222064957] .title[_ngcontent-ng-c4222064957] a[_ngcontent-ng-c4222064957] {
+  font-size: 1.8rem;
+}
+
+.services[_ngcontent-ng-c4222064957] .description[_ngcontent-ng-c4222064957] {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  margin-top: 28px;
+  font-weight: 400;
+}
+
+.btn {
+  font-weight: 400;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  padding: .625rem .75rem;
+  font-size: 1rem;
+  line-height: 1.1;
+  border-radius: .125rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.services[_ngcontent-ng-c4222064957] .icon-box[_ngcontent-ng-c4222064957] {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 20px 0;
+    background: #fff;
+    box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #fff;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:567px) {
+ 
+  .row {
+    width: 115%;
+    margin-left: 0.5rem;
+    margin-top: 20rem;
+  }
+
+  .services.icon {
+    margin: 0 auto 30px auto;
+    padding-top: 21px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.services .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #111;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.services .description {
+  font-size: 25px;
+  line-height: 32px;
+  margin-bottom: 60px;
+  margin-top: 54px;
+}
+
+.services .icon-box-pink .icon {
+  background: #fceef3;
+}
+
+.services .icon-box-pink .icon .ng-fa-icon {
+  color: #ff689b;
+  font-size: 3rem;
+}
+
+.services .icon-box-pink:hover {
+  border-color: #ff689b;
+}
+
+.services .icon-box-cyan .icon {
+  background: #e6fdfc;
+}
+
+.services .icon-box-cyan .icon .ng-fa-icon {
+  color: #3fcdc7;
+  font-size: 3rem;
+}
+
+.services .icon-box-cyan:hover {
+  border-color: #3fcdc7;
+}
+
+.services .icon-box-green .icon {
+  background: #eafde7;
+}
+
+.services .icon-box-green .icon .ng-fa-icon {
+  color: #41cf2e;
+  font-size: 3rem;
+}
+
+.services .icon-box-green:hover {
+  border-color: #41cf2e;
+}
+
+.services .icon-box-blue .icon {
+  background: #e1eeff;
+}
+
+.services .icon-box-blue .icon .ng-fa-icon {
+  color: #2282ff;
+  font-size: 3rem;
+}
+
+.services .icon-box-blue:hover {
+  border-color: #2282ff;
+}
+
+a {
+  margin-top: 1.2rem;
+}
+
+.btn {
+  font-weight: 600;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  padding: .625rem .75rem;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+} 

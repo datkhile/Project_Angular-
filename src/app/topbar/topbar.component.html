@@ -1,0 +1,39 @@
+<!-- Topbar Start -->
+<div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s" class="animate__animated animate__fadeInRight">
+    <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                <fa-icon [icon]="faLocationDot"  [class.animate__animated]="animate"
+                [class.animate__headShake]="animate"
+                (mouseover)="triggerAnimation()"></fa-icon>
+                <small style="margin-left: 0.5vw;">Kacheri Road, Palghar, 401404</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center py-3">
+                <fa-icon [icon]="faClock"  [class.animate__animated]="animate"
+                [class.animate__headShake]="animate"
+                (mouseover)="triggerAnimation()"></fa-icon>
+                <small style="margin-left: 0.5vw;">Open : Mon - Fri : 10.00AM - 06.00PM
+                </small>
+            </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                <fa-icon [icon]="faEnvelope" [class.animate__animated]="animate"
+                [class.animate__headShake]="animate"
+                (mouseover)="triggerAnimation()"></fa-icon>
+                <small style="margin-left: 0.5vw;">COPYRIGHT © 2013 "&#64;" Yogakshmeaonline</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center">
+                <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><fa-icon
+                        [icon]="fafacebook"></fa-icon></a>
+                <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><fa-icon
+                        [icon]="faTwitter"></fa-icon></a>
+                <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><fa-icon
+                        [icon]="faInstagram"></fa-icon></a>
+                <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" href=""><fa-icon
+                        [icon]="faLinkedinIn"></fa-icon></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->

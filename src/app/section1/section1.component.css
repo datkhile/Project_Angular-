@@ -1,0 +1,407 @@
+.p-carousel-content {
+ display: flex;
+  flex-direction: column;
+  overflow: auto;
+  width: 91%;
+ 
+  margin-left: 6rem;
+}
+
+.p-carousel-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 9rem;
+}
+
+.product-item-content { 
+  border: 1px solid var(--surface-d); 
+  border-radius: 3px; 
+  margin: 0.5rem; 
+  text-align: center; 
+  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  transition: all 0.3s ease-in-out;
+  padding: 2rem 0; 
+  background-color: snow; 
+} 
+
+
+
+.ng-fa-icon  {
+  height: 4rem;
+  vertical-align: middle;
+  width: 4rem;
+  position: relative;
+  top: 8rem;
+  left: -17rem;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
+  bottom: 0rem;
+  background-color: #92055c;
+  border-radius: 0.6rem 0.6rem 0.1rem 4rem;
+  box-shadow: 0vw 0vw 0.8vw;
+}
+h1 {
+  font: 700 36px / 32px Roboto, sans-serif;
+    letter-spacing: .0125em;
+    margin: 0 0 -10px;
+    color: #91035ac2;
+    opacity: 1;
+    margin-top: 3.3rem;
+}
+
+ h4 {
+  font: 300 18px / 29px Roboto, sans-serif;
+  letter-spacing: .03125em;
+  margin: 40px 6px 40px;
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #000000f8;
+}
+.container {
+    padding: 21px;
+    margin-top: -1rem;
+    background-color: rgb(235, 236, 245);
+    text-align: center;
+    max-width: 100%;
+  }
+
+.top-button {
+  margin-top: 112px;
+  line-height: 26px;
+    padding: 4px 27px 2px 27px;
+    display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #fff;
+  color:#6e0144;
+  opacity: 1;
+  border-radius: 40px;
+  cursor: pointer;
+  border-width: thin;
+  border: 1px solid #efbedc;
+}
+
+.top-button:hover {
+  background-color: #d0cbdb;
+}
+
+.main-heading {
+  width: 58%;
+  margin-top: 26px;
+  margin-bottom: 32px;
+  margin-left: 297px;
+  line-height: 60px;
+  font-size: 53px;
+  font-weight: 700;
+  color: #8f085bf8;
+}
+
+.p-carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+.product-item-content { 
+  border: 1px solid var(--surface-d); 
+  border-radius: 3px; 
+  margin: 0.5rem; 
+  text-align: center; 
+  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  transition: all 0.3s ease-in-out;
+  padding: 2rem 0; 
+  background-color: snow; 
+} 
+
+img, svg {
+  height: 17rem;
+    vertical-align: middle;
+    width: 23rem;
+    position: relative;
+    top: 0rem;
+    left: 2rem;
+    bottom: 1rem;
+    border-radius: 0.6rem 0.6rem 0.1rem 4rem;
+    box-shadow: 0vw 0vw 0.8vw;
+}
+
+
+h4 {
+  font: 300 18px / 29px Roboto, sans-serif;
+  letter-spacing: .03125em;
+  margin: 40px 6px 40px;
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #000000f8;
+}
+
+.p-button {
+  color: #ffffff;
+  border: 1px solid #2196F3;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  border-radius: 3px;
+  outline-color: transparent;
+}
+
+.p-component {
+  margin-top: -3.8rem;
+}
+
+.btn[_ngcontent-ng-c1780855109] {
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  padding: 1.2rem 1.2rem;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  border-radius: 0.125rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.ng-fa-icon[_ngcontent-ng-c1780855109] {
+  overflow: visible;
+  box-sizing: content-box;
+  position: relative;
+  font-size: 1.5rem;
+  top: 9rem;
+  right: 19.3rem;
+  border-radius: 50%;
+  color: aliceblue;
+  background-color: #8f0053;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item:hover img {
+  transform: scale(1.1);
+}
+
+@media only screen and (min-width: 568px) and (max-width: 992px) {
+  .container {
+    padding: 10px;
+    margin-top: 0.5rem;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .top-button {
+    margin-top: 100px;
+    padding: 14px 52px;
+    font-size: 24px;
+  }
+
+  .main-heading {
+    width: 96%;
+    margin: 36px 20px 23px 26px;
+    font-size: 55px;
+    line-height: 54px;
+  }
+
+  .p-carousel-content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .p-carousel-container {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .p-carousel-items-container {
+    display: flex;
+    flex-direction: row;
+    width: 171%;
+}
+
+  .product-item-content {
+    margin: 0.5rem;
+    padding: 1rem 0;
+    width: 95%;
+  }
+
+  .ng-fa-icon {
+    height: 3rem;
+    width: 3rem;
+    top: 6rem;
+    left: -12rem;
+    font-size: 1.2rem;
+  }
+
+  img, svg {
+    height: 12rem;
+    width: 12rem;
+    top: 0rem;
+    left: 0rem;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-top: 0rem;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin: 20px 4px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .p-button {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+
+  .ng-fa-icon {
+    font-size: 2.2rem;
+    z-index: 100;
+    position: relative;
+    top: -2rem;
+    height: 5rem;
+    left: -1rem;
+    width: 5rem;
+  }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:567px) {
+  .container {
+      padding: 31px;
+      margin-top: 0.2rem;
+      margin-left: 1rem;
+      text-align: center;
+      max-width: 135%;
+      width: 128%;
+  }
+
+  .top-button {
+    margin-top: 55px;
+    padding: 14px 42px;
+    font-size: 23px;
+    line-height: 23px;
+  }
+
+  .main-heading {
+    width: 109%;
+    margin-left: -1.5rem;
+    padding: 18px 7px 8px 10px;
+    font-size: 42px;
+    line-height: 47px;
+  }
+
+
+  .product-item-content[_ngcontent-ng-c616421239] {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid var(--surface-d);
+    border-radius: 3px;
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+    transition: all 0.3s ease-in-out;
+    padding: 2rem 0;
+    background-color: snow;
+}
+  .p-carousel-content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .p-carousel-container {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .p-carousel-items-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem; 
+  }
+
+  img, svg{
+    height: 10rem;
+    vertical-align: middle;
+    width: 88%;
+    max-width: 100%;
+    position: relative;
+    top: -1rem;
+    left: -0rem;
+    border-radius: 0.6rem 0.6rem 0.1rem 4rem;
+    box-shadow: 0vw 0vw 0.8vw;
+  }
+
+ 
+
+  /* General styles for the container */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.ng-fa-icon {
+  height: 6rem;
+  vertical-align: middle;
+  width: 6rem;
+  position: relative;
+  top: 1rem;
+  left: -26rem;
+  color: #fff;
+  font-size: 3rem;
+  padding: 1rem;
+  bottom: 0rem;
+  background-color: #92055c;
+  border-radius: 0.6rem 0.6rem 0.1rem 4rem;
+  box-shadow: 0vw 0vw 0.8vw;
+}
+
+h1{
+  font: 900 36px / 48px Roboto, sans-serif;
+  letter-spacing: .0125em;
+  margin: 0 0 -10px;
+  color: #91035ac2;
+  opacity: 1;
+  margin-top: 3.3rem;
+}
+
+
+/* Adjust carousel settings for tablet view */
+@media only screen and (min-width: 568px) and (max-width: 992px) {
+  .p-carousel .p-carousel-content .p-carousel-item {
+    flex: 0 0 50%; /* Two items visible */
+    max-width: 50%;
+  }
+}
+
+/* Adjust carousel settings for mobile view */
+@media only screen and (max-width: 567px) {
+  .p-carousel .p-carousel-content .p-carousel-item {
+    flex: 0 0 100%; /* One item visible */
+    max-width: 100%;
+  }
+
+  
+
+  .description {
+    font-size: 0.9rem; /* Adjust description font size */
+  }
+
+  .product-item-content {
+    padding: 10px; /* Reduce padding */
+  }
+}
+
+}

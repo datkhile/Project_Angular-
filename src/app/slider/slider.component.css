@@ -1,0 +1,251 @@
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding-top: 0px;
+  padding-bottom: 157px;
+  overflow-x: hidden; /* Ensure horizontal overflow is hidden */
+}
+
+.clients .swiper-slide img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: blur(1px);
+}
+
+.clients .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+.clients .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  background-color: #ddd;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffc451;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: hidden;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rs-testimonial-partner-text {
+  position: relative;
+  top: 53px;
+  right: -56px;
+  width: 89%;
+  height: 79px;
+  background-color: #efecf5;
+  opacity: 1;
+  padding: 33px;
+  box-shadow: 2px 0 1px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-align: center;
+}
+
+.clients-slider {
+  margin-left: 8%; /* Make space for the fixed heading */
+  overflow-x: hidden; /* Ensure the slider doesn't cause horizontal overflow */
+}
+
+.clients-slider .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+h5 {
+  font: 500 calc(27px* .83) / 27px Roboto, sans-serif;
+  text-align: left;
+  margin-top: -26px;
+}
+
+.rs-shape {
+  position: absolute;
+  left: 239px;
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    max-width: 1484px;
+    background-color: #efecf5;
+    opacity: 1;
+    margin-bottom: -4.5rem;
+    height: 17rem;
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-9 {
+    flex: 0 0 auto;
+    width: 75%;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width:568px) and (max-width:992px) {
+
+  .clients {
+    padding-top: 0px;
+    padding-bottom: 157px;
+    overflow-x: hidden;
+    margin-top: -35rem;
+}
+
+.row {
+  width: 104%;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -2.2rem;
+  background-color: #efecf5;
+  z-index: 100;
+}
+
+.rs-testimonial-partner-text{
+  position: relative;
+  top: 32px;
+  right: 13px;
+  width: 138%;
+  height: 30px;
+  background-color: #efecf5;
+  opacity: 1;
+  padding: 68px 2px 68px 5px;
+  box-shadow: 2px 0 1px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-align: justify;
+  margin-bottom: 4rem;
+}
+
+.col-lg-9 {
+  flex: 0 0 auto;
+  width: 75%;
+  margin-top: 0rem;
+}
+
+h5[_ngcontent-ng-c1652207880] {
+  font: 500 calc(28px* 0.83) / 35px Roboto, sans-serif;
+  text-align: left;
+  margin-top: -39px;
+  margin-left: 3rem;
+}
+
+.clients-slider {
+  margin-left: 0; /* Remove left margin for the slider */
+  padding: 0 20px; /* Add some padding to the sides */
+}
+
+.swiper-slide img {
+  width: 80%; /* Resize images for tablet view */
+  height: auto;
+}
+
+.rs-shape[_ngcontent-ng-c1652207880] {
+  position: relative;
+  left: 151px;
+  top: -4.5rem;
+}
+
+}
+
+@media only screen and (min-width:320px) and (max-width:567px) {
+  .rs-testimonial-partner-text {
+    position: relative;
+    top: -12px;
+    right: -56px;
+    width: 107%;
+    max-width: 129%;
+    background-color: #efecf5;
+    opacity: 1;
+    padding: 78px;
+    box-shadow: 2px 0 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+}
+
+h5 {
+  font: 500 calc(45px* .83) / 54px Roboto, sans-serif;
+  text-align: center;
+  margin-top: 19px;
+  margin-left: -4rem;
+}
+
+.row {
+  width: 104%;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -2.2rem;
+  background-color: #efecf5;
+  z-index: 100;
+}
+
+.clients-slider[_ngcontent-ng-c1652207880] {
+  margin-top: 4rem;
+  /* width: 161%; */
+  margin-left: 0%;
+  overflow-x: hidden;
+}
+
+.swiper-container[_ngcontent-ng-c1652207880] {
+  width: 199%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.swiper-slide .swiper-slide-active{
+  width: 137.333px;
+  margin-right: 48px;
+  padding: 26px 20px;
+}
+.container {
+  width: 108%;
+}
+
+.img-fluid {
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 6rem;
+  z-index: 1000;
+}
+
+.rs-shape {
+  position: relative;
+  left: 6rem;
+  top: -4rem;
+}
+}

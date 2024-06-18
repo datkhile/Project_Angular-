@@ -1,0 +1,40 @@
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+  <div class="container d-flex justify-content-between align-items-center">
+
+    <div class="logo">
+      <a class="navbar-brand" href="#"><img src="assets/images/bird.png" [class.animate__animated]="animate"
+          [class.animate__fadeInLeft]="animate" (mouseover)="triggerAnimation()" alt=" "></a>
+    </div>
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="active " href="index.html">Home</a></li>
+        <li class="dropdown"><a href="#"><span>Insurance</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Life Insurance</a></li>
+            <li><a href="#">Motor Insurance</a></li>
+            <li><a href="#">Health Insurance</a></li>
+          </ul>
+        </li>
+        <li><a href="services.html">Real Estate</a></li>
+        <li><a href="portfolio.html">Software Solution</a></li>
+        <li class="dropdown"><a href="#"><span>Claims</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Motor Claims</a></li>
+            <li><a href="#">Health Claims</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Clientele</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav><!-- .navbar -->
+    <div class="contact">
+      <button [class.animate__animated]="animate"
+      [class.animate__fadeInRight]="animate"
+      (mouseover)="triggerAnimation()" pButton type="button" label="Hover me" pTooltip="+91 92261 53216 & +91 92261 53215"> 
+          <fa-icon [icon]="faPhone"></fa-icon>
+      </button>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,246 @@
+  .justify-content-center {
+    margin-left: -16rem;
+    grid-gap: 0px;
+  }
+   
+  @media (min-width: 1200px) {
+    .col-xl-2 {
+      padding: 1rem;
+      background-color: white;
+      /* border-radius: 15px; */
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      width: 24.9%;
+      /* padding-top: 1rem; */
+      height: 8rem;
+    }
+  }
+  
+  .mt-5 {
+    margin-top: -5rem !important;
+} 
+
+  .col-xl-2:hover {
+    color: #330274;
+    margin-top: -4px;
+      box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+  }
+  
+  #hero .icon-box {
+    padding: 30px 20px;
+    transition: ease-in-out 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+  }
+  
+  [data-aos].aos-animate {
+    pointer-events: auto;
+  }
+
+  .ng-fa-icon {
+    display: var(--fa-display, inline-block);
+    font-size: 2.5rem;
+    color: #ffffff;
+    opacity: 5;
+    vertical-align: -0.125em;
+    margin-top: 2rem;
+    margin-left: -13rem;
+  }
+  
+  .ng-fa-icon:hover {
+    color: #6b0048;
+    font-size: 2.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  a:hover{
+    color: #cfcecf;
+    margin-top: -4px;
+      box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+  }
+  
+  .mask {
+    background-color: rgba(216, 216, 216, 0.8); 
+    height: 100%; 
+  }
+
+  .icon-box {
+    text-align: center;
+  }
+  
+  .row {
+    width: 100%;
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+  }
+  
+ h3 {
+  margin-left: 7.5rem;
+  margin-top: -2rem;
+  text-align: justify;
+}
+  @media only screen and (min-width:568px) and (max-width:992px) {
+    
+  .icon-box {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .fa-icon {
+    margin-left: -49rem;
+    grid-gap: 1rem;
+    margin-bottom: -5rem;
+  }
+  
+  .ng-fa-icon {
+    display: var(--fa-display, inline-block);
+    font-size: 3rem;
+    color: #ffffff;
+    opacity: 5;
+    vertical-align: -0.125em;
+    margin-top: 3.5rem;
+    margin-left: -13rem;
+}
+  .mt-5[_ngcontent-ng-c706814036] {
+      margin-top: 18rem !important;
+  }
+
+  h3[_ngcontent-ng-c278529366] {
+    margin-left: 6.6rem;
+    margin-top: -2rem;
+    text-align: justify;
+}
+
+  a {
+    grid-gap: 1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+  
+  a:hover{
+    color: #9d0965;
+    margin-top: -4px;
+      box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+  }
+  
+  
+  .icon-box {
+    text-align: center;
+  }
+  
+  .row {
+    width: 54rem;
+    margin-left: -2.5rem;
+  }
+
+  .mt-5{
+    margin-top: -33rem !important;
+}
+  
+  .justify-content-center {
+    grid-gap: 0px 18px;
+    /* margin-left: 1.5rem; */
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-4 {
+      flex: 0 0 auto;
+      width: 40.33333333%;
+      margin-top: 4rem;
+      margin-bottom: -3rem;
+    }
+  }
+  
+  
+  
+  }
+  
+  @media only screen and (min-width:320px) and (max-width:567px) {
+    .row > * {
+      flex-shrink: 0;
+      width: 56%;
+      max-width: 100%;
+      margin-right: 14rem;
+      margin-top: var(--bs-gutter-y);
+  }
+
+    .icon-box {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    
+    .fa-icon {
+      margin-left: -49rem;
+      grid-gap: 1rem;
+      margin-bottom: -5rem;
+    }
+    
+    .ng-fa-icon {
+      display: var(--fa-display, inline-block);
+        font-size: 4rem;
+        color: #ffffff;
+        opacity: 5;
+        vertical-align: -0.125em;
+        margin-top: 3.5rem;
+        margin-left: -22rem;
+  }
+    .mt-5[_ngcontent-ng-c706814036] {
+        margin-top: 18rem !important;
+    }
+  
+    h3[_ngcontent-ng-c278529366] {
+      margin-left: 7rem;
+      margin-top: -2.5rem;
+      text-align: justify;
+  }
+  
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: 2.8rem;
+      font-weight: 500;
+    }
+    
+    a:hover{
+      color: #9d0965;
+      margin-top: -4px;
+        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+    }
+    
+    
+    .icon-box {
+      text-align: center;
+    }
+    
+    .row {
+      width: 54rem;
+      margin-left: -2.5rem;
+    }
+  
+    .mt-5{
+      margin-top: -50rem !important;
+  }
+    
+    .justify-content-center {
+      grid-gap: 0px 18px;
+    }
+    
+    @media (min-width: 768px) {
+      .col-md-4 {
+        flex: 0 0 auto;
+        width: 40.33333333%;
+        margin-top: 4rem;
+        margin-bottom: -3rem;
+      }
+    }
+    
+  
+  }

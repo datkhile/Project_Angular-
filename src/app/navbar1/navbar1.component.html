@@ -1,0 +1,85 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid p-0">
+    <a class="navbar-brand" href="#"><img src="assets/images/bird.png" [class.animate__animated]="animate"
+        [class.animate__fadeInLeft]="animate"
+        (mouseover)="triggerAnimation()" alt=" "></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="animate__animated animate__backInLeft" class="navbar-nav">
+              <li class="nav-item scroll" (click)="toHome()">
+                  <a class="nav-link active fs-5" href="boot.html">
+                      <i class="fa-solid fa-house"></i>
+                      Home
+                  </a>
+              </li>
+              <li class="nav-item dropdown scroll" (click)="toInsurance()">
+                  <a class="nav-link dropdown-toggle fs-5" href="#Insurance" role="button"
+                      data-bs-toggle="dropdown">
+                      <i class="fas fa-shield-alt"></i>
+                      Insurance
+                  </a>
+                  <ul class="dropdown-menu scroll">
+                      <li (cilck)="toLifeInsurance()"><a class="dropdown-item" href="#life-insurance">Life Insurance</a></li>
+                      <li (cilck)="toMotorInsurance()"><a class="dropdown-item" href="#motor-insurance">Motor Insurance</a></li>
+                      <li (cilck)="toHealthInsurance()"><a class="dropdown-item" href="#health-insurance">Health Insurance</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item scroll" (click)="toRealEstate()">
+                  <a class="nav-link fs-5" href="#real-estate">
+                      <i class="fa-solid fa-building"></i>
+                      Real Estate
+                  </a>
+              </li>
+              <li class="nav-item" (click)="toSoftwareSolution()">
+                  <a class="nav-link fs-5" href="#">
+                      <i class="fa-solid fa-desktop"></i>
+                      Software Solution
+                  </a>
+              </li>
+              <li class="nav-item dropdown" (click)="toClaims()">
+                  <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown">
+                      <i class="fa-solid fa-notes-medical"></i>
+                      Claims
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li (click)="toMotorClaims()"><a class="dropdown-item" href="#">Motor Claims</a></li>
+                      <li (click)="toHealthClaims()"><a class="dropdown-item" href="#">Health Claims</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item" (click)="toClientele()">
+                  <a class="nav-link fs-5" href="#">
+                      <i class="fa-solid fa-users"></i>
+                      Clientele
+                  </a>
+              </li>
+              <li class="nav-item" (click)="toContactus()">
+                  <a class="nav-link fs-5" href="#">
+                      <i class="fa-solid fa-address-book"></i>
+                      Contact us
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div class="contact">
+    <button [class.animate__animated]="animate"
+    [class.animate__fadeInRight]="animate"
+    (mouseover)="triggerAnimation()" pButton type="button" label="Hover me" pTooltip="+91 92261 53216 & +91 92261 53215"> 
+        <fa-icon [icon]="faPhone"></fa-icon>
+    </button>
+  </div>
+  <!-- <div class="contact">
+      <i class="fa-solid fa-phone-volume"></i>
+      <div class="float-end">
+          <p>+91 92261 53216</p>
+          <p>+91 92261 53215</p>
+      </div>
+  </div> -->
+
+
+  <!-- <button pButton type="button" label="Hover me" pTooltip="This is a customized tooltip"
+        tooltipPosition="right" tooltipEvent="focus" tooltipAppendTo="body">daat</button> -->
+</nav>

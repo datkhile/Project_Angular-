@@ -1,0 +1,128 @@
+<div class="container-fluid p-0 d-flex h-100">
+  <div id="bdSidebar" class="d-flex flex-column 
+                flex-shrink-0 
+                p-3 bg-success
+                text-white offcanvas-md offcanvas-start">
+    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" [class.animate__animated]="animate"
+      [class.animate__fadeInLeft]="animate"
+      (mouseover)="triggerAnimation()" alt=" "></a>
+    <hr>
+    <ul class="mynav nav nav-pills flex-column mb-auto">
+      <li class="nav-item mb-1">
+        <a class="nav-link active " href="#home">
+          <fa-icon [icon]="faHome"></fa-icon>
+          Home
+        </a>
+      </li>
+
+      <li class="nav-item mb-1">
+        <a class="nav-link dropdown-toggle " href="#insurance" role="button" data-bs-toggle="dropdown">
+          <fa-icon [icon]="faShieldAlt"></fa-icon>
+          Insurance
+        </a>
+        <ul class="dropdown-menu scroll">
+          <li (cilck)="toLifeInsurance()"><a class="dropdown-item" href="#life-insurance">Life
+              Insurance</a></li>
+          <li (cilck)="toMotorInsurance()"><a class="dropdown-item" href="#motor-insurance">Motor
+              Insurance</a></li>
+          <li (cilck)="toHealthInsurance()"><a class="dropdown-item" href="#health-insurance">Health
+              Insurance</a></li>
+        </ul>
+      </li>
+      <li class="nav-item mb-1">
+        <a class="nav-link " href="#real estate">
+          <fa-icon [icon]="faBuilding"></fa-icon>
+          Real Estate
+        </a>
+      </li>
+      <li class="nav-item mb-1">
+        <a class="nav-link " href="#Software Solution">
+          <fa-icon [icon]="faWifiStrong"></fa-icon>
+          Software Solution
+        </a>
+      </li>
+      <li class="nav-item mb-1">
+        <a class="nav-link dropdown-toggle " href="#claims" role="button" data-bs-toggle="dropdown">
+          <fa-icon [icon]="faPlus"></fa-icon>
+          Claims
+        </a>
+        <ul class="dropdown-menu">
+          <li (click)="toMotorClaims()"><a class="dropdown-item" href="#motor-claims">Motor Claims</a>
+          </li>
+          <li (click)="toHealthClaims()"><a class="dropdown-item" href="#health-claims">Health Claims</a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item mb-1">
+        <a class="nav-link " href="#clientele">
+          <fa-icon [icon]="faUser"></fa-icon>
+          Clientele
+        </a>
+      </li>
+      <li class="nav-item mb-1">
+        <a class="nav-link " href="#contact us">
+          <fa-icon [icon]="faAddressBook"></fa-icon>
+          Contact us
+        </a>
+      </li>
+    </ul>
+    <!-- <hr>
+    <div class="d-flex">
+      <i class="fa-solid fa-book  me-2"></i>
+      <span>
+        <h6 class="mt-1 mb-0">
+          COPYRIGHT © 2013 "&#64;" Yogakshmeaonline
+        </h6>
+      </span>
+    </div> -->
+  </div>
+
+  <div class="bg-light flex-fill">
+    <div class="p-2 d-md-none d-flex text-white bg-success">
+      <a href="#" class="text-white" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+      <span class="ms-3">GFG Portal</span>
+    </div>
+    <div class="p-4">
+      <nav style="--bs-breadcrumb-divider:'>';font-size:14px">
+        <ol class="breadcrumb">
+          <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row gx-0 d-none d-lg-flex" [class.animate__animated]="animate"
+            [class.animate__fadeInRight]="animate"
+            (mouseover)="triggerAnimation()">
+              <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                  <fa-icon [icon]="faLocationDot"></fa-icon>
+                  <small style="margin-left: 0.5vw;">Kacheri Road, Palghar, 401404</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                  <fa-icon [icon]="faClock"></fa-icon>
+                  <small style="margin-left: 0.5vw;">Mon - Fri : 10.00AM - 06.00PM
+                  </small>
+                </div>
+              </div>
+              <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                  <fa-icon [icon]="faPhone"></fa-icon>
+                  <small style="margin-left: 0.5vw;">02525-250316</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                  <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><fa-icon
+                      [icon]="fafacebook"></fa-icon></a>
+                  <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><fa-icon
+                      [icon]="faTwitter"></fa-icon></a>
+                  <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><fa-icon
+                      [icon]="faInstagram"></fa-icon></a>
+                  <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" href=""><fa-icon
+                      [icon]="faLinkedinIn"></fa-icon></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ol>
+      </nav>
+      <hr>
+    </div>
+  </div>
+</div>

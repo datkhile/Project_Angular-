@@ -1,0 +1,282 @@
+.p-button {
+  color: black;
+  background: none;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        background-color: rgb(240, 240, 240);
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+.navbar .navbar-brand,
+.navbar a.btn {
+    height: 75px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.navbar.sticky-top {
+    top: -100px;
+    transition: .5s;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        font-size: 1em;
+        border: none;
+        line-height: 2rem;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+        box-shadow: 0vw 0vw 0.5vw rgb(54, 54, 54);
+    }
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    margin-left: 6rem;
+    flex-grow: 1;
+    align-items: center;
+}
+ 
+.container-fluid{
+    box-shadow: 0vw 0vw 0.1vw rgb(121, 120, 120);
+}
+ .container-fluid body {
+    overflow-x: hidden;
+  }
+  
+  img {
+    margin: -0.3vw 1vw;
+    right: 0%;
+  }
+  
+  .navbar-nav {
+    gap: 1.5em;
+    margin-left: 11em;
+    display: flex;
+  }
+  
+  .nav-link i {
+    display: none;
+  }
+  
+  .nav-link {
+    margin-inline: 0vw 0.7vw;
+    font-weight: 650;
+  }
+  
+  .nav-item  {
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+  }
+  
+  
+  .nav-item a:hover {
+    color: #932067;
+    background-color: #fadeef;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+
+  
+  .contact {
+    padding: 1.5vw 0.5vw 1vw;
+    line-height: 3rem;
+  }
+  
+  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    border-radius: 50%;
+    height: 52px;
+    width: 52px;
+    border: none;
+    font-size: 1.6rem;
+    margin-top: -2rem;
+    margin-right: -0.4rem;
+  }
+  
+  .list a:hover {
+    color: #932067;
+  }
+  
+  .dropdown-content a:hover {
+    color: #932067;
+  }
+  
+  .ng-fa-icon:hover{
+    font-size: 2.2rem;
+    color: #932067;
+  }
+  
+
+
+  
+
+  
+  
+
+@media only screen and (min-width:568px) and (max-width:992px) {
+    .navbar .container-fluid {
+      box-shadow: 0.9vw 0vw 0.9vw #cdcdcd;
+      z-index: 100;
+      position: absolute;
+      background-color: #fff;
+      top: 0.1rem;
+      width: 100%;
+      display: flex;
+    }
+
+    .navbar-nav {
+        box-shadow: 0vw 0vw 9vw;
+        background-color: rgb(250, 236, 246);
+        border-radius: 6vw 6vw 6vw 6vw;
+        width: 66vw;
+    }
+
+    .nav-link i {
+        display: flex;
+        margin-left: -7vw;
+        font-size: 3.5vw;
+        margin-top: 2vw;
+        margin-bottom: -3vw;
+    }
+
+    .navbar[_ngcontent-ng-c2446976050] .navbar-nav[_ngcontent-ng-c2446976050] .nav-link[_ngcontent-ng-c2446976050]:hover, .navbar[_ngcontent-ng-c2446976050] .navbar-nav[_ngcontent-ng-c2446976050] .nav-link[_ngcontent-ng-c2446976050] {
+        font-size: 1.5rem;
+        margin-left: 8rem;
+        color: var(--primary);
+    }
+
+    
+.navbar-toggler-icon {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 147px solid black;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+
+    
+.navbar-nav .dropdown-menu {
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    line-height: 1.6rem;
+    position: static;
+    margin-left: 10rem;
+    width: 50%;
+}
+    img {
+        margin: -0.3vw 1.5vw;
+        right: 0%;
+      }
+
+    
+
+}
+
+@media only screen and (min-width:320px) and (max-width:567px) {
+    .navbar.sticky-top[_ngcontent-ng-c3171155319] {
+      top: -100px;
+      transition: .5s;
+      margin-right: -7.7rem;
+  }
+
+  .navbar .container-fluid {
+    box-shadow: 0vw 0.2vw 0.4vw rgb(185, 185, 185);
+    z-index: 100;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 0.1rem;
+    width: 131%;
+    display: flex;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-top: 1rem;
+}
+
+.navbar-nav {
+    box-shadow: 0vw 0vw 9vw;
+        background-color: rgb(250, 236, 246);
+        border-radius: 6vw 6vw 6vw 6vw;
+        width: 25rem;
+        margin-left: 1.5rem;
+        margin-top: 0.4rem;
+}
+
+.nav-link i {
+    display: flex;
+    margin-left: -7vw;
+    font-size: 3.5vw;
+    margin-top: 2vw;
+    margin-bottom: -3vw;
+}
+
+
+.navbar[_ngcontent-ng-c2446976050] .navbar-nav[_ngcontent-ng-c2446976050] .nav-link[_ngcontent-ng-c2446976050]:hover, .navbar[_ngcontent-ng-c2446976050] .navbar-nav[_ngcontent-ng-c2446976050] .nav-link[_ngcontent-ng-c2446976050] {
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    color: var(--primary);
+}
+
+
+
+.navbar-nav .dropdown-menu {
+font-size: 1.3rem;
+border-radius: 2rem;
+line-height: 1.6rem;
+position: static;
+margin-left: 10rem;
+width: 50%;
+}
+
+
+img {
+    margin: -0.3vw 1.5vw;
+    right: 0%;
+  }
+
+  }

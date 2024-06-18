@@ -1,0 +1,312 @@
+.section-title {
+    margin-top: 0rem;
+    text-align: center;
+    padding-top: 7rem;
+}
+
+code, kbd, pre, samp {
+    border: 1px solid #efbedc;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #fff;
+    color: #6e0144;
+    border-radius: 40px;
+    line-height: 29px;
+    padding: 6px 22px 4px 22px;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.section-title .title {
+    font-size: 49px;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 35px;
+    color: #850353f8;
+}
+
+img, svg {
+    vertical-align: middle;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 1.5px -2px 2px white;
+    margin: -9px -71px 40px -5px;
+}
+
+ol, ul {
+    color: gray;
+    display: flex;
+    gap: 2rem;
+    padding-left: 2rem;
+    margin-left: 0rem;
+    font-size: 1rem;
+}
+
+.rs-content ul {
+    list-style-type: none;
+}
+
+.rs-content ul li {
+    display: flex;
+    align-items: center;
+}
+
+.rs-content ul li fa-icon {
+    margin-right: 5px; /* Adjust the value as needed */
+    padding-right: 5px;
+    color: #6e0144;
+}
+
+.rs-content h3 {
+    text-align: start;
+    margin-left: 1.9rem; /* Adjust as needed */
+    margin-right: 1.9rem; /* Adjust as needed */
+}
+
+.rs-content h3:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.rs-content h3 a {
+    font-size: 1.6rem;
+    color: #6e0144;
+    font-weight: 500;
+}
+
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 33%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+        margin-right: 4rem;
+    }
+}
+
+.rs-content  .rs-link {
+    text-align: start;
+    margin-left: 1.9rem;
+    margin-right: 1.9rem;
+    font-size: 19px;
+    font-weight: 600;
+    color: gray;
+}
+
+
+hr {
+    /* margin-bottom: -8rem; */
+    /* margin: 2rem 2rem; */
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: 0.1;
+    padding-top: 1rem;
+    /* padding-bottom: 0rem; */
+    width: 77%;
+    margin-left: 1.8rem;
+}
+
+.rs-blog__single {
+    border: 0.1px solid #f1ecec ; /* Change the color and width as needed */
+    padding: 10px; /* Optional: Add padding to create space between the content and the border */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    margin-bottom: 5rem;
+}
+
+.rs-link {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust the value as needed */
+    color: #6e0144; /* Optional: Ensure the text color matches your design */
+    text-decoration: none; /* Optional: Remove underline */
+    font-weight: 500; /* Optional: Make the text slightly bolder */
+}
+
+.rs-link fa-icon {
+    margin-left: 5px; /* Optional: Add space between the text and the icon */
+}
+
+
+/* Hover effect for the entire blog card */
+.rs-blog__single:hover {
+    background-color: #f9f9f9; /* Change background color on hover */
+    border-color: #ddd; /* Change border color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the "Continue Reading" link */
+.rs-link:hover {
+    color: #850353f8; /* Change text color on hover */
+}
+
+.rs-link:hover fa-icon {
+    color: #850353f8; /* Change icon color on hover */
+}
+
+
+
+@media only screen and (min-width:568px) and (max-width:992px) {
+    .section-title{
+        margin-top: -11rem;
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+
+    code, kbd, pre, samp {
+        border: 1px solid #efbedc;
+        font-size: 25px;
+        font-weight: 600;
+        background-color: #fff;
+        color: #6e0144;
+        border-radius: 40px;
+        line-height: 55px;
+        padding: 6px 58px 6px 58px;
+        display: inline-block;
+        margin-bottom: 4rem;
+    }
+
+    
+.section-title.title{
+    font-size: 64px;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 78px;
+    color: #850353f8;
+}
+
+img, svg {
+    height: 30rem;
+    overflow-x: hidden;
+    width: 102%;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 1.5px -2px 2px white;
+    margin-bottom: 5rem;
+}
+
+ol, ul{
+    color: gray;
+    display: flex;
+    gap: 6rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.rs-content ul li fa-icon{
+    margin-right: 23px;
+    padding-right: 12px;
+    color: #6e0144;
+}
+
+.rs-content h3 a {
+    font-size: 3rem;
+    color: #6e0144;
+    font-weight: 500;
+    line-height: 3.5rem;
+}
+
+.rs-content .rs-link {
+    text-align: start;
+    margin-left: 1.9rem;
+    margin-right: 1.9rem;
+    font-size: 38px;
+    font-weight: 600;
+    color: gray;
+    padding: 4rem 0rem;
+}
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width:567px) {
+    .section-title{
+        margin-top: -18rem;
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+
+    code, kbd, pre, samp {
+        border: 1px solid #efbedc;
+        font-size: 25px;
+        font-weight: 600;
+        background-color: #fff;
+        color: #6e0144;
+        border-radius: 40px;
+        line-height: 55px;
+        padding: 6px 58px 6px 58px;
+        display: inline-block;
+        margin-bottom: 4rem;
+        margin-left: 6rem;
+    }
+
+    
+.section-title .title{
+    font-size: 59px;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 1px 80px;
+    color: #850353f8;
+    margin-left: 0.5rem;
+    margin-right: -6rem;
+}
+
+
+img, svg {
+    height: 22rem;
+    overflow-x: hidden;
+    width: 135%;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 1.5px -2px 2px white;
+    margin-bottom: 6rem;
+}
+
+ol, ul{
+    color: gray;
+    line-height: 5rem;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    display: block;
+}
+
+.rs-content ul li fa-icon{
+    margin-right: 1rem;
+        padding-right: 33px;
+        color: #6e0144;
+        margin-left: -2rem;
+}
+
+.rs-content h3 a {
+    font-size: 3.7rem;
+    color: #6e0144;
+    font-weight: 500;
+    line-height: 4.5rem
+}
+
+.rs-content .rs-link {
+    text-align: start;
+    margin-left: 0.1rem;
+    margin-right: -6.7rem;
+    font-size: 48px;
+    font-weight: 600;
+    color: gray;
+    padding: 4rem 0rem;
+    gap: 2rem;
+}
+
+.rs-content[_ngcontent-ng-c2566316089] h3[_ngcontent-ng-c2566316089] {
+    text-align: start;
+     margin-left: 0.1rem; 
+     margin-right:-6.9rem; 
+}
+
+}

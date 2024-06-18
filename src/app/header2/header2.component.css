@@ -1,0 +1,145 @@
+/* .text-dark {
+    --bs-text-opacity: 1;
+    background-color: #fff1f8;
+    color: rgb(73 76 80) !important;
+    margin-top: 4rem;
+    margin-left: 40rem;
+}
+
+.pmd-intro-bg-img {
+    
+    height: 80rem;
+    background-image: url(https://pro.propeller.in/assets/images/card-banner-1.jpg);
+    width: 99%;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+} 
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        margin-left: 1.1rem;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        margin-right: -1rem;
+    }
+}
+
+.banner-wrap{
+    margin-top: -43rem;
+}
+
+.text-dark[_ngcontent-ng-c1807842832] {
+    --bs-text-opacity: 1;
+    margin-top: 4rem;
+    background-color: #fff1f8;
+    color: rgb(73 76 80) !important;
+    margin-left: 40rem;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.h1, h1 {
+    font-size: 0rem;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 600;
+} */
+ 
+.banner-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: -45rem;
+}
+
+/* Styling for the video container */
+.pmd-intro-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+/* Styling for the video itself */
+.pmd-intro-bg-img video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(10px);
+}
+
+/* Styling for the content container */
+.container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   
+}
+
+/* Styling for the text content */
+.pmd-intro-container {
+    text-align: center;
+    color: white;
+}
+
+.pmd-intro-container h1,
+.pmd-intro-container p {
+    color: white;
+}
+
+
+
+
+.h1, h1 {
+    text-align: center;
+    margin-left: -8rem;
+    margin-bottom: 12rem;
+    font-style: oblique;
+    font-weight: 900;
+    font-size: 7rem;
+    margin-right: -4rem;
+    line-height: 7rem;
+    }
+    
+  span {
+    color:#f1a5cb;
+  }
+  
+.row{
+    margin-top: 3px;
+}
+
+.down{
+        text-align: center;
+        font-size: 6rem;
+        margin-left: -2rem;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: -9rem;
+    line-height: 2.4rem;
+    margin-left: -29rem;
+    margin-right: -30rem;
+}
+
+.h-100 {
+    height: 90% !important;
+}

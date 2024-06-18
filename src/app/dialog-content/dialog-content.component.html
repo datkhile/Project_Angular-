@@ -1,0 +1,64 @@
+<div class="  offcanvas offcanvas-end  overly show-overly w-25" tabindex="-1" id="offcanvas" data-bs-keyboard="false"
+data-bs-backdrop="false" >
+    <!-- <div class="overly show-overly"></div> -->
+    <div class="offcanvas-header">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" [class.animate__animated]="animate"
+                [class.animate__fadeInRight]="animate" (mouseover)="triggerAnimation()" alt=" "></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body px-0">
+        <div class="col-lg-4 col-md-6">
+            <p>We are a one stop solution provider with our wide range of services. We provide all kinds of
+                insurance solutions, software solutions, real estate etc since our establishment.
+                Our Team of experts is well experienced to understand your need and provide a best possible solution
+                to suit your need.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px;"></div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-6 col-sm-3">
+                <img src="assets/images/life.jpg" alt=" ">
+            </div>
+            <div class="col-6 col-sm-3">
+                <img src="assets/images/Motor.jpeg" alt=" ">
+            </div>
+            <div class="w-100"></div>
+            <div class="col-6 col-sm-3">
+                <img src="assets/images/Health.jpeg" alt=" ">
+            </div>
+            <div class="col-6 col-sm-3">
+                <img src="assets/images/Real.jpeg" alt=" ">
+            </div>
+        </div>
+    </div>
+    <div class="address">
+        <p class="mb-4"> <fa-icon [icon]="faLocationDot" class="me-3 fs-6" style="padding: 5px;"></fa-icon>Kacheri Road, Palghar, 401404</p>
+        <p class="mb-4"><fa-icon [icon]="faPhone" class=" me-3 fs-6" style="padding: 5px;" ></fa-icon>+02525-250316</p>
+        <p class="mb-4"><fa-icon [icon]="faEnvelope" class="me-3 fs-6" style="padding: 5px;"></fa-icon>yogakshem.palghar&#64;gmail.com</p>
+        <p class="mb-4"><fa-icon [icon]="faClock" class="me-3 fs-6" style="padding: 5px;"></fa-icon>10.00AM - 06.00PM</p>
+    </div>
+    <ul class="p-1">
+        <a href="#"><fa-icon [icon]="fafacebook" [class.animate__animated]="animate"
+                [class.animate__headShake]="animate" (mouseover)="triggerAnimation()"></fa-icon></a>
+        <a href="#"><fa-icon [icon]="faTwitter" [class.animate__animated]="animate" [class.animate__headShake]="animate"
+                (mouseover)="triggerAnimation()"></fa-icon></a>
+        <a href="#"><fa-icon [icon]="faLinkedinIn" [class.animate__animated]="animate"
+                [class.animate__headShake]="animate" (mouseover)="triggerAnimation()"></fa-icon></a>
+        <a href="#"><fa-icon [icon]="faInstagram" [class.animate__animated]="animate"
+                [class.animate__headShake]="animate" (mouseover)="triggerAnimation()"></fa-icon></a>
+    </ul>
+    <h6 class="text-muted mt-3 p-1">+91 92261 53216 | +91 92261 53215</h6>
+    <hr class="lower-hr fa-solid mt-2">
+    <h6 class="text-muted pb-5">COPYRIGHT © 2024 &#64; Yogakshemaonline. Designed by Ocean Technosys</h6>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col min-vh-100 p-4">
+            <button class="btn float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button">
+                <fa-icon [icon]="faBarsProgress" class=" fs-3" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvas"></fa-icon>
+            </button>
+        </div>
+    </div>
+</div>

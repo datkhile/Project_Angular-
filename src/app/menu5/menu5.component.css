@@ -1,0 +1,46 @@
+.col-auto {
+   
+    background-color: #ebebeb;
+    margin-left: 1rem;
+    flex: 0 0 auto;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.rounded-3 {
+    color: black;
+    box-shadow: 0 0 1rem black;
+    font-size: 1.1rem;
+    border-radius: var(--bs-border-radius-lg) !important;
+    background-color: transparent;
+    margin-bottom: 28rem;
+}
+
+.rounded-3[_ngcontent-ng-c3402482721]:hover{
+    font-size: 1.3rem;
+    visibility: visible;
+    color: rgb(146, 4, 92);
+    
+}
+
+.ms-1 {
+    margin-left: 2rem !important;
+}
+
+.nav-pills .nav-link {
+    color: black;
+    border-radius: var(--bs-nav-pills-border-radius);
+}
+
+.nav-pills .nav-link:hover {
+    color: rgb(151, 19, 107);
+}
+
+h6 {
+    font: 400 calc(14px* .67) / 20px Roboto, sans-serif;
+    margin: 0 0 12px;
+    font-size: 0.84rem;
+    margin-left: -1rem;
+    font-weight: 700;
+}

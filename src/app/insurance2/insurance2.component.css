@@ -1,0 +1,143 @@
+.service-item {
+    transition: .5s;
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1576px;
+    }
+}
+
+.service-item:hover {
+    margin-top: -10px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+.service-item .btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-item:hover .btn {
+    width: 140px;
+}
+
+.container-xxl[_ngcontent-ng-c3837327226][_ngcontent-ng-c3837327226] {
+    margin-top: -39rem;
+    width: 79%;
+    margin-left: 19rem;
+}
+
+.row {
+    margin-top: calc(-3* var(--bs-gutter-y));   
+}
+
+
+h4 {
+    letter-spacing: .03125em;
+    margin-top: -4rem;
+    margin-left: 4.5rem;
+    font-weight: 800;
+    font-size: 1.3rem;
+  }
+
+  .text-muted {
+    --bs-text-opacity: 1;
+    color: rgba(233, 33, 143, 0.75) !important;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color:#f0e6eb !important;
+}
+
+.mb-4 {
+    margin-bottom: 2rem !important;
+}
+
+.text-center {
+    margin-top: -2rem;
+}
+
+@media only screen and (min-width:568px) and (max-width:992px) {
+   
+    .h3, h3 {
+        font-size: 1.9rem;
+    }
+    
+
+    .row[_ngcontent-ng-c3837327226] {
+        width: 109.5%;
+        margin-left: -2rem;
+        margin-top: calc(-3* var(--bs-gutter-y));
+    }
+
+    .h4, h4 {
+        font-weight: 700;
+        font-size: 1.7rem;
+    }
+
+    p {
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .py-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 1rem !important;
+    }
+  }
+
+  @media only screen and (min-width:320px) and (max-width:567px) {
+    .h3, h3 {
+        font-size: 2.6rem;
+    }
+
+    .service-item[_ngcontent-ng-c3837327226] .btn[_ngcontent-ng-c3837327226] {
+        width: 65px;
+        height: 65px;
+        font-size: 3rem;
+        font-weight: 900;
+        display: inline-flex;
+        align-items: center;
+        background: #FFFFFF;
+        border-radius: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+        transition: .5s;
+    }
+    
+    .row[_ngcontent-ng-c3837327226] {
+        
+        width: 167%;
+        margin-left: -1.8rem;
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+        margin-top: -4rem;
+    }
+
+    .h4, h4 {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .col-md-6 .col-lg-3 p {
+        font-size: 1.5rem;
+        margin-top: 0;
+        line-height: 1.7rem;
+    }
+
+    .py-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 1rem !important;
+    }
+  }
