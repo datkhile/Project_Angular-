@@ -1,0 +1,193 @@
+body {
+    overflow-x: hidden;
+}
+
+.header p {
+    margin-top: -6vw;
+    font-weight: 400;
+    color: #4e4d4d;
+    line-height: 2vw;
+    font-size: 1.6vw;
+    margin-left : 2.3rem;
+    text-align: justify;
+    margin-bottom: -8px;
+}
+
+@media (min-width: 1200px) {
+    .h1, h1 {
+        margin-bottom: 8rem;
+        margin-top: -2rem;
+        text-align: justify;
+        margin-left: 2.3rem;
+        font-style: oblique;
+        font-weight: 900;
+        font-size: 4.4rem;
+        line-height: 5rem;
+    }
+}
+
+span {
+   color: #8f085bf8;
+}
+
+.row {
+    margin-top: 3px;
+}
+
+.row > * {
+    flex-shrink: 0;
+    width: 50%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: -43.5rem;
+    margin-right: 0rem;
+    overflow-x: hidden;
+}
+
+.bg-image {
+    background-image: url('https://demo.rstheme.com/html/insurigo/assets/images/banner-thumb-1.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    position: relative;
+    mask-image: linear-gradient(to left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    -webkit-mask-image: linear-gradient(to left, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 0) 90%);
+}
+
+.bg-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    filter: blur(0px);
+    mask-image: linear-gradient(to right, rgba(209, 208, 208, 0) 0%, rgba(255, 255, 255, 1) 50%);
+    -webkit-mask-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+}
+
+.img-fluid {
+    max-width: 100%;
+    box-shadow: 0px 0px 0px 3px white;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .col-lg-9 {
+        flex: 0 0 auto;
+        width: 100%;
+        /* margin-left: 2rem; */
+        overflow-x: hidden;
+    }
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    margin-left: 3rem;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+}
+
+
+@media only screen and (min-width:568px) and (max-width:992px) {
+    .row > * {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        margin-top: -52rem;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        bottom: 30.6rem;
+        right: 5rem;
+        /* filter: contrast(0.5); */
+    }
+
+    .bg-image {
+        background-position: center;
+        background-size: cover;
+        height: 50vh; /* Adjust the height as needed */
+        top: -50rem;
+        left: -2rem;
+        mask-image: linear-gradient(to left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+        -webkit-mask-image: linear-gradient(to left, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 0) 30%);
+    
+    }
+
+    .col-lg-6 h1 {
+        font: 723 73px / 28px Roboto, sans-serif;
+        letter-spacing: normal;
+        margin: 0 0 320px;
+        line-height: 5rem;
+    }
+
+    .header p {
+        margin-top: -37vw;
+        font-weight: 400;
+        color: #4e4d4d;
+        line-height: 4.8vw;
+        font-size: 3.8vw;
+        margin-right: 8rem;
+        text-align: justify;
+        /* margin-bottom: -15px; */
+    }
+
+    .clients-slider {
+        width: 90%;
+        margin: auto;
+    }
+
+    .clients-slider .swiper-slide img {
+        width: auto;
+        max-height: 100px; /* Adjust as needed */
+    }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:567px) {
+    .row > * {
+        flex-shrink: 0;
+        width: 122%;
+        max-width: 129%;
+        margin-top: -2.5rem;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        bottom: 49rem;
+        right: 5rem;
+    }
+
+    .bg-image {
+        background-position: center;
+        background-size: cover;
+        height: 50vh; /* Adjust the height as needed */
+        top: -50rem;
+        left: -2rem;
+    }
+
+    .col-lg-6 h1 {
+        font: 900 94px / 9px Roboto, sans-serif;
+        letter-spacing: normal;
+        margin: 0 0 180px;
+        line-height: 6rem;
+        text-align: left;
+    }
+
+    .header p {
+        margin-top: -34vw;
+        font-weight: 400;
+        color: #4e4d4d;
+        line-height: 7.5vw;
+        font-size: 6.5vw;
+        margin-left: 0rem;
+        text-align: justify;
+        margin-right: -2.5rem;
+    }
+
+    
+}

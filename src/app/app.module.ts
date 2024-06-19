@@ -49,6 +49,7 @@ import { Section11Component } from './section11/section11.component';
 import { FooterstartComponent } from './footerstart/footerstart.component';
 import { ImagesComponent } from './images/images.component';
 import { NewsComponent } from './news/news.component';
+import { LifeinsuranceComponent } from './lifeinsurance/lifeinsurance.component';
 
 
 
@@ -87,6 +88,7 @@ import { NewsComponent } from './news/news.component';
     FooterstartComponent,
     ImagesComponent,
     NewsComponent,
+    LifeinsuranceComponent,
   ],
   imports: [
     BrowserModule,

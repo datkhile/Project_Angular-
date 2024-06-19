@@ -12,24 +12,24 @@
            <div class="p-mb-3" ></div>
            <div>
             <img [src]="car.imageUrl" alt="Insurance Image"    >
-            <fa-icon *ngIf="car.id === '1'" [icon]="faUsersLine" class="btn btn-outline-dark btn-social rounded-circle" ></fa-icon>
-            <fa-icon *ngIf="car.id === '2'" [icon]="faMotorcycle" class="btn btn-outline-dark btn-social rounded-circle" ></fa-icon>
-            <fa-icon *ngIf="car.id === '3'" [icon]="faNotesMedical" class="btn btn-outline-dark btn-social rounded-circle" ></fa-icon>
-            <fa-icon *ngIf="car.id === '4'" [icon]="faPlus" class="btn btn-outline-dark btn-social rounded-circle" ></fa-icon>
+            <fa-icon *ngIf="car.id === 'life-insurance'" [icon]="faUsersLine" class="btn btn-outline-dark btn-social rounded-circle" ></fa-icon>
+            <fa-icon *ngIf="car.id === 'motor-insurance'" [icon]="faMotorcycle" class="btn btn-outline-dark btn-social rounded-circle" ></fa-icon>
+            <fa-icon *ngIf="car.id === 'health-insurance'" [icon]="faNotesMedical" class="btn btn-outline-dark btn-social rounded-circle" ></fa-icon>
+            <fa-icon *ngIf="car.id === 'real-estate'" [icon]="faPlus" class="btn btn-outline-dark btn-social rounded-circle" ></fa-icon>
              <h1 class="p-mb-1">{{ car.name }}</h1>
              <h4 class="p-mb-1">
              <p class="description" 
-              *ngIf="car.id === '1'"> Life insurance is a protection for your loved ones. 
+              *ngIf="car.id === 'life-insurance'"> Life insurance is a protection for your loved ones. 
               It can act as a solution to your child’s college fees,
               daughter’s marriage, tax saver and family cover after death. 
               Buy once and be worry free for whole life.</p>
-              <p class="description" style="margin-bottom: 6rem;" *ngIf="car.id === '2'">Motor insurance protects against loss of due to theft, 
+              <p class="description" style="margin-bottom: 6rem;" *ngIf="car.id === 'motor-insurance'">Motor insurance protects against loss of due to theft, 
                 traffic accidents or fire, explosion etc. 
                 Also it is mandatory by the Indian Government.</p>
-              <p class="description" style="margin-bottom: 6.1rem;" *ngIf="car.id === '3'">No one plans to get sick or hurt, but most people need 
+              <p class="description" style="margin-bottom: 6.1rem;" *ngIf="car.id === 'health-insurance'">No one plans to get sick or hurt, but most people need 
                 medical care at some point. Health insurance 
                 helps pay these costs.</p>
-              <p class="description" style="margin-bottom: 8rem;" *ngIf="car.id === '4'">The most preferred and assured form of investing money 
+              <p class="description" style="margin-bottom: 8rem;" *ngIf="car.id === 'real-estate'">The most preferred and assured form of investing money 
                 and getting the best returns</p>
               </h4>
              <div class="car-buttons p-mt-3">

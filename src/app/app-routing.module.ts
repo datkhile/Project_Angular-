@@ -32,6 +32,7 @@ import { Section11Component } from './section11/section11.component';
 import { FooterstartComponent } from './footerstart/footerstart.component';
 import { ImagesComponent } from './images/images.component';
 import { NewsComponent } from './news/news.component';
+import { LifeinsuranceComponent } from './lifeinsurance/lifeinsurance.component';
 
 
 const routes: Routes = [
@@ -67,6 +68,7 @@ const routes: Routes = [
   { path: 'footerstart',component: FooterstartComponent},
   { path: 'images', component:ImagesComponent},
   { path: 'news',component:NewsComponent},
+  { path: 'lifeinsurance', component:LifeinsuranceComponent},
 ];
 
 @NgModule({
