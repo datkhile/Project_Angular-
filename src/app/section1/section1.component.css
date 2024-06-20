@@ -3,7 +3,6 @@
   flex-direction: column;
   overflow: auto;
   width: 91%;
- 
   margin-left: 6rem;
 }
 
@@ -31,8 +30,8 @@
   vertical-align: middle;
   width: 4rem;
   position: relative;
-  top: 8rem;
-  left: -17rem;
+  top: -2rem;
+  left: -5rem;
   color: #fff;
   font-size: 1.5rem;
   padding: 1rem;
@@ -47,7 +46,7 @@ h1 {
     margin: 0 0 -10px;
     color: #91035ac2;
     opacity: 1;
-    margin-top: 3.3rem;
+    margin-top: 0.3rem;
 }
 
  h4 {
@@ -88,12 +87,12 @@ h1 {
 }
 
 .main-heading {
-  width: 58%;
-  margin-top: 26px;
-  margin-bottom: 32px;
-  margin-left: 297px;
-  line-height: 60px;
-  font-size: 53px;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 289px;
+  line-height: 65px;
+  font-size: 60px;
   font-weight: 700;
   color: #8f085bf8;
 }
@@ -117,10 +116,10 @@ h1 {
 img, svg {
   height: 17rem;
     vertical-align: middle;
-    width: 23rem;
+    width: 21rem;
     position: relative;
     top: 0rem;
-    left: 2rem;
+    left: 0rem;
     bottom: 1rem;
     border-radius: 0.6rem 0.6rem 0.1rem 4rem;
     box-shadow: 0vw 0vw 0.8vw;
@@ -138,8 +137,8 @@ h4 {
 }
 
 .p-button {
-  color: #ffffff;
-  border: 1px solid #2196F3;
+  color: #ffffff !important;
+  border: 1px solid #f8f9fa !important;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
@@ -151,7 +150,7 @@ h4 {
   margin-top: -3.8rem;
 }
 
-.btn[_ngcontent-ng-c1780855109] {
+.btn {
   border: 1px solid transparent;
   text-transform: uppercase;
   padding: 1.2rem 1.2rem;
@@ -185,6 +184,13 @@ h4 {
 .product-item:hover img {
   transform: scale(1.1);
 }
+
+
+ /* .btnp {
+  background-color: #ffffff;
+  border: 0.1px solid #f3f6f8 !important;
+  padding: 0.5rem 3rem; 
+} */
 
 @media only screen and (min-width: 568px) and (max-width: 992px) {
   .container {

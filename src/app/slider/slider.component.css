@@ -2,9 +2,10 @@
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding-top: 0px;
-  padding-bottom: 157px;
-  overflow-x: hidden; /* Ensure horizontal overflow is hidden */
+  padding-top: 25px;
+    background-color: #efecf5;
+    padding-bottom: 71px;
+    overflow-x: hidden;
 }
 
 .clients .swiper-slide img {
@@ -28,7 +29,7 @@
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  background-color: #ddd;
+  /* background-color: #ddd; */
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {

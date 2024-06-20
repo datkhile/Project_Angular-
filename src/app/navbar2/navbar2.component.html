@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item scroll" (click)="toHome()">
-                    <a class="nav-link active " href="#home">
+                    <a class="nav-link active " href="#">
                         Home
                     </a>
                 </li>
@@ -19,8 +19,8 @@
                       Insurance 
                     </a>
                     <ul class="dropdown-menu scroll">
-                        <li (cilck)="toLifeInsurance()"><a class="dropdown-item" routerLink="/app-lifeinsurance">Life
-                                Insurance</a></li>
+                        <li (cilck)="toLifeInsurance()"><a class="dropdown-item" [routerLink]="['/lifeinsurance']">Life Insurance
+                        </a></li>
                         <li (cilck)="toMotorInsurance()"><a class="dropdown-item" href="#motor-insurance">Motor
                                 Insurance</a></li>
                         <li (cilck)="toHealthInsurance()"><a class="dropdown-item" href="#health-insurance">Health

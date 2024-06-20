@@ -1,13 +1,13 @@
 
 .float-end {
-    position: relative;
-    margin-top: -7.2rem;
-    left: -2.1rem;
-    border-radius: 50%;
-    float: right !important;
-    height: 100px;
-    width: 90px;
-    background-color: #ffffff;
+  position: relative;
+  margin-top: -7.2rem;
+  left: -1.2rem;
+  border-radius: 50%;
+  float: right !important;
+  height: 100px;
+  width: 82px;
+  /* background-color: #ffffff;*/
 }
 
 
@@ -36,13 +36,13 @@
  .ng-fa-icon {
   font-size: 1.3vw;
   color: #69003f;
-  margin-right: 2vw;
+  margin-right: 1.9vw;
   padding: 1vw;
   border-radius: 50%;
   font-weight: 500;
   border: lightgrey;
   margin-top: 0.8vw;
-  background: #fffafa;
+  background: #ffffff;
   }
   
    .ng-fa-icon:hover {
@@ -112,13 +112,13 @@ img, svg  {
 @media (min-width: 576px) {
     .col-sm-3 {
       flex: 0 0 auto;
-      width: 42%;
-      height: 7.1rem;
+      width: 45%;
+      height: 7.3rem;
     }
   }
 
   .text-center {
-    margin-top: 9rem;
+    margin-top: 13rem;
     text-align: center !important;
 }
 

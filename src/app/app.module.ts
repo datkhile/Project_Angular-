@@ -6,6 +6,7 @@ import { ButtonModule } from 'primeng/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
 import { AppRoutingModule } from './app-routing.module';
+import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 // import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -51,6 +52,10 @@ import { ImagesComponent } from './images/images.component';
 import { NewsComponent } from './news/news.component';
 import { LifeinsuranceComponent } from './lifeinsurance/lifeinsurance.component';
 
+
+const routes: Routes = [
+  // Define your routes here
+];
 
 
 @NgModule({
@@ -106,7 +111,12 @@ import { LifeinsuranceComponent } from './lifeinsurance/lifeinsurance.component'
     ButtonModule, 
         CarouselModule, 
         FormsModule,
-         
+        
+
+        RouterModule.forRoot(routes, {
+          scrollPositionRestoration: 'enabled', // Scrolls to top when navigating to a new route
+          anchorScrolling: 'enabled', // Smooth scroll to anchor
+        }),
   ],
   providers: [
     provideAnimationsAsync()

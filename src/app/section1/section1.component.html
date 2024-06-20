@@ -23,18 +23,18 @@
               It can act as a solution to your child’s college fees,
               daughter’s marriage, tax saver and family cover after death. 
               Buy once and be worry free for whole life.</p>
-              <p class="description" style="margin-bottom: 6rem;" *ngIf="car.id === 'motor-insurance'">Motor insurance protects against loss of due to theft, 
+              <p class="description" style="margin-bottom: 6.1rem;" *ngIf="car.id === 'motor-insurance'">Motor insurance protects against loss of due to theft, 
                 traffic accidents or fire, explosion etc. 
                 Also it is mandatory by the Indian Government.</p>
-              <p class="description" style="margin-bottom: 6.1rem;" *ngIf="car.id === 'health-insurance'">No one plans to get sick or hurt, but most people need 
+              <p class="description" style="margin-bottom: 8rem;" *ngIf="car.id === 'health-insurance'">No one plans to get sick or hurt, but most people need 
                 medical care at some point. Health insurance 
                 helps pay these costs.</p>
-              <p class="description" style="margin-bottom: 8rem;" *ngIf="car.id === 'real-estate'">The most preferred and assured form of investing money 
+              <p class="description" style="margin-bottom: 9.7rem;" *ngIf="car.id === 'real-estate'">The most preferred and assured form of investing money 
                 and getting the best returns</p>
               </h4>
              <div class="car-buttons p-mt-3">
                <p-button>
-               <a class="btn" href="">Read More</a>
+               <a class="btn" [routerLink]="['/lifeinsurance']">Read More </a>
               </p-button>
                
              </div>
